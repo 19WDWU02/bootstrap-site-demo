@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Bootstrap Layout Example</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Website Name</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News & Updates</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="records.html">Records <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <div>
+                    <ul class="navbar-nav mr-auto">
+                        <li>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4">Records</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Records</li>
+                      </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <thead class="thead-dark">
+                          <tr class="d-none d-md-table-row">
+                            <th></th>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr scope="row" class="table-secondary">
+                                <td class="d-none d-md-table-cell">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </td>
+                                <td class="d-none d-md-table-cell">1</td>
+                                <td class="d-none d-md-table-cell">John</td>
+                                <td class="d-none d-md-table-cell">Doe</td>
+                                <td class="d-none d-md-table-cell">@jd</td>
+                                <td class="d-none d-md-table-cell">
+                                    <button type="button" class="btn btn-info">Edit</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                                <td class="d-table-cell d-md-none">John Doe</td>
+                                <td class="d-table-cell d-md-none text-right ">
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalOne">Show More</button>
+                                </td>
+                            </tr>
+
+                            <tr scope="row" class="">
+                                <td class="d-none d-md-table-cell">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </td>
+                                <td class="d-none d-md-table-cell">1</td>
+                                <td class="d-none d-md-table-cell">John</td>
+                                <td class="d-none d-md-table-cell">Doe</td>
+                                <td class="d-none d-md-table-cell">@jd</td>
+                                <td class="d-none d-md-table-cell">
+                                    <button type="button" class="btn btn-info">Edit</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                                <td class="d-table-cell d-md-none">John Doe</td>
+                                <td class="d-table-cell d-md-none text-right">
+                                    <button type="button" class="btn btn-info">Show More</button>
+                                </td>
+                            </tr>
+
+                            <tr scope="row" class="table-success ">
+                                <td class="d-none d-md-table-cell">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </td>
+                                <td class="d-none d-md-table-cell">1</td>
+                                <td class="d-none d-md-table-cell">John</td>
+                                <td class="d-none d-md-table-cell">Doe</td>
+                                <td class="d-none d-md-table-cell">@jd</td>
+                                <td class="d-none d-md-table-cell">
+                                    <button type="button" class="btn btn-info">Edit</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                                <td class="d-table-cell d-md-none">John Doe</td>
+                                <td class="d-table-cell d-md-none text-right">
+                                    <button type="button" class="btn btn-info">Show More</button>
+                                </td>
+                            </tr>
+
+                            <tr scope="row" class="">
+                                <td class="d-none d-md-table-cell">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </td>
+                                <td class="d-none d-md-table-cell">1</td>
+                                <td class="d-none d-md-table-cell">John</td>
+                                <td class="d-none d-md-table-cell">Doe</td>
+                                <td class="d-none d-md-table-cell">@jd</td>
+                                <td class="d-none d-md-table-cell">
+                                    <button type="button" class="btn btn-info">Edit</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                                <td class="d-table-cell d-md-none">John Doe</td>
+                                <td class="d-table-cell d-md-none text-right">
+                                    <button type="button" class="btn btn-info">Show More</button>
+                                </td>
+                            </tr>
+
+                            <tr scope="row" class="table-primary">
+                                <td class="d-none d-md-table-cell">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </td>
+                                <td class="d-none d-md-table-cell">1</td>
+                                <td class="d-none d-md-table-cell">John</td>
+                                <td class="d-none d-md-table-cell">Doe</td>
+                                <td class="d-none d-md-table-cell">@jd</td>
+                                <td class="d-none d-md-table-cell">
+                                    <button type="button" class="btn btn-info">Edit</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                                <td class="d-table-cell d-md-none">John Doe</td>
+                                <td class="d-table-cell d-md-none text-right">
+                                    <button type="button" class="btn btn-info">Show More</button>
+                                </td>
+                            </tr>
+
+                            <tr scope="row" class="">
+                                <td class="d-none d-md-table-cell">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </td>
+                                <td class="d-none d-md-table-cell">1</td>
+                                <td class="d-none d-md-table-cell">John</td>
+                                <td class="d-none d-md-table-cell">Doe</td>
+                                <td class="d-none d-md-table-cell">@jd</td>
+                                <td class="d-none d-md-table-cell">
+                                    <button type="button" class="btn btn-info">Edit</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                                <td class="d-table-cell d-md-none">John Doe</td>
+                                <td class="d-table-cell d-md-none text-right">
+                                    <button type="button" class="btn btn-info">Show More</button>
+                                </td>
+                            </tr>
+
+                            <tr scope="row" class="table-danger">
+                                <td class="d-none d-md-table-cell">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </td>
+                                <td class="d-none d-md-table-cell">1</td>
+                                <td class="d-none d-md-table-cell">John</td>
+                                <td class="d-none d-md-table-cell">Doe</td>
+                                <td class="d-none d-md-table-cell">@jd</td>
+                                <td class="d-none d-md-table-cell">
+                                    <button type="button" class="btn btn-info">Edit</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                                <td class="d-table-cell d-md-none">John Doe</td>
+                                <td class="d-table-cell d-md-none text-right">
+                                    <button type="button" class="btn btn-info">Show More</button>
+                                </td>
+                            </tr>
+
+                            <tr scope="row" class="">
+                                <td class="d-none d-md-table-cell">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </td>
+                                <td class="d-none d-md-table-cell">1</td>
+                                <td class="d-none d-md-table-cell">John</td>
+                                <td class="d-none d-md-table-cell">Doe</td>
+                                <td class="d-none d-md-table-cell">@jd</td>
+                                <td class="d-none d-md-table-cell">
+                                    <button type="button" class="btn btn-info">Edit</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                                <td class="d-table-cell d-md-none">John Doe</td>
+                                <td class="d-table-cell d-md-none text-right">
+                                    <button type="button" class="btn btn-info">Show More</button>
+                                </td>
+                            </tr>
+
+                            <tr scope="row" class="table-warning ">
+                                <td class="d-none d-md-table-cell">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </td>
+                                <td class="d-none d-md-table-cell">1</td>
+                                <td class="d-none d-md-table-cell">John</td>
+                                <td class="d-none d-md-table-cell">Doe</td>
+                                <td class="d-none d-md-table-cell">@jd</td>
+                                <td class="d-none d-md-table-cell">
+                                    <button type="button" class="btn btn-info">Edit</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </td>
+                                <td class="d-table-cell d-md-none">John Doe</td>
+                                <td class="d-table-cell d-md-none text-right">
+                                    <button type="button" class="btn btn-info">Show More</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row d-none d-md-block">
+                <div class="col">
+                    <button type="button" class="btn btn-success" name="button">Add New Record</button>
+                    <div class="dropdown d-inline">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Action to All
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Delete</a>
+                        <a class="dropdown-item" href="#">Edit</a>
+                        <a class="dropdown-item" href="#">Uncheck</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-muted bg-dark py-5 mt-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 col-md-6">
+                      <blockquote class="blockquote">
+                        <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someones name</footer>
+                      </blockquote>
+                  </div>
+              </div>
+              <hr class="border-white">
+              <div class="row">
+                  <div class="col-12 col-md-6 text-white text-center text-md-left">
+                      <h6>Location</h6>
+                      <p class="mb-0 font-weight-light">1355 Address St, Suite 900<br>
+                        Country, CA 94103<br>
+                        P: (123) 456-7890</p>
+                      <h6>Persons Name</h6>
+                      <a href="#">person@gmail.com</a>
+                  </div>
+                  <div class="col-12 col-md-6 text-center text-md-right">
+                      <img class="rounded-circle" src="https://via.placeholder.com/150/55595C" alt="...">
+                  </div>
+              </div>
+          </div>
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">John Doe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                @jd
+              </div>
+              <div class="modal-footer justify-content-start">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Edit</button>
+                <button type="button" class="btn btn-danger">Remove</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </body>
+</html>
